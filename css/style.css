@@ -2,6 +2,8 @@
 body {
   background: url(../img/m.jpg) no-repeat center top;
   font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -11,6 +13,11 @@ html {
 .container__fixed {
   width: 1168px;
   margin: 0 auto;
+}
+
+.container__background {
+  padding: 1px;
+  margin: 0;
 }
 
 header {
@@ -46,5 +53,71 @@ header .header__menu .menu .menu__item .menu__link {
   text-align: center;
   text-decoration: none;
   color: #fff;
+}
+
+.container__banner .banner {
+  width: 570px;
+  text-align: center;
+  margin: 10% auto;
+  line-height: 60px;
+  color: #fff;
+}
+
+.container__banner .banner .banner__slogan {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.container__banner .banner .banner__underslogan {
+  font-size: 1.5rem;
+}
+
+.container__banner .banner .banner__items {
+  margin-top: 4%;
+}
+
+.container__banner .banner .banner__items .banner-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.container__banner .banner .banner__items .banner-items .banner-item__btndown {
+  margin: 0 3% 0 0;
+}
+
+.container__banner .banner .banner__items .banner-items .banner-item__btndown .btndown .btndown__link {
+  display: block;
+  background: #fff;
+  color: #233148;
+  text-decoration: none;
+  width: 16.5rem;
+  height: 4rem;
+  border-radius: 5px;
+  line-height: 3.5rem;
+}
+
+.container__banner .banner .banner__items .banner-items .banneritem__btncontact {
+  margin: 0 0 0 1.5%;
+}
+
+.container__banner .banner .banner__items .banner-items .banneritem__btncontact .btncontact .btncontact__link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  width: 14.2rem;
+  height: 3.8rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  line-height: 3.5rem;
+}
+
+.container__banner .banner .banner__img {
+  margin-top: 12%;
 }
 /*# sourceMappingURL=style.css.map */

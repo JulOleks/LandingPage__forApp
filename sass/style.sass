@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap')
+
+$fontW: 600
+$defColor: #fff
+
 body
 	background: url(../img/m.jpg) no-repeat center top
 	//background: #000
 	font-family: 'Work Sans', sans-serif
+	padding: 0
+	margin: 0
 html
 	font-size: 10px	
 	 
 .container__fixed
 	width: 1168px
 	margin: 0 auto
+	
 .container__background
+	//background: url("../img/banner/background.png")
+	padding: 1px
+	margin: 0
 	.container__header
 
 
@@ -37,20 +47,56 @@ header
 					height: 40px
 					text-align: center
 					text-decoration: none
-					color: #fff
+					color: $defColor
 					
 					
 
 .container__banner
 	.banner
+		width: 570px
+		text-align: center
+		margin: 10% auto
+		line-height: 60px
+		color: $defColor
 		.banner__slogan
-		.banner__underslogan	
+			font-size: 4.5rem
+			font-weight: $fontW
+		.banner__underslogan
+			font-size: 1.5rem	
 		.banner__items
+			margin-top: 4%
 			.banner-items
-				.banner-item__btndown	
+				display: flex
+				justify-content: center
+				font-size: 1.4rem
+				font-weight: $fontW
+			
+				.banner-item__btndown
+					
+					margin: 0 3% 0 0	
 					.btndown
 						.btndown__link
+							display: block
+							background: #fff
+							color: #233148
+							text-decoration: none
+							width: 16.5rem
+							height: 4rem
+							border-radius: 5px
+							line-height: 3.5rem
 				.banneritem__btncontact
+					margin: 0 0 0 1.5%
 					.btncontact
+						
 						.btncontact__link
+							display: block
+							color: $defColor
+							text-decoration: none
+							width: 14.2rem
+							height: 3.8rem
+							line-height: 
+							border: 1px solid #fff					
+							border-radius: 5px
+							line-height: 3.5rem
 		.banner__img
+			margin-top: 12%
